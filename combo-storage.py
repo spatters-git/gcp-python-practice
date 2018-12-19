@@ -1,3 +1,9 @@
+'''
+script to play around with Google Cloud Storage.  
+Expects:
+- two existing cloud storage buckets (prompted)
+- a file (name provided as command line argument)
+'''
 from google.cloud import storage
 from sys import argv
 
