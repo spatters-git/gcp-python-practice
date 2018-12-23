@@ -32,7 +32,7 @@ for result in results:
     print("Extracting the instance name:")
     print(result.metric.labels.get('instance_name'))
     print("Extracting the value from the first metric point in the time series:")
-    print(result.points[0].value.double_value)
+    print(result.points[0].value.double_value) # multiple points so we have to index
 
 
 
